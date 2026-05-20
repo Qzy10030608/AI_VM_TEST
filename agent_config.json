@@ -1,0 +1,43 @@
+{
+  "agent_name": "desktop_vm_agent",
+  "protocol_version": "v4.agent.1",
+  "package_version": "0.4.2",
+  "host": "0.0.0.0",
+  "port": 8765,
+  "token": "",
+  "developer_mode": false,
+  "allow_raw_shell": false,
+  "allow_legacy_apps_api": true,
+  "allow_action_api": true,
+  "allow_dynamic_app_scan": true,
+  "allow_absolute_path_action": true,
+  "enable_app_uninstall": true,
+  "enable_app_move": true,
+  "enable_app_update": true,
+  "enable_file_write_actions": true,
+  "default_timeout_sec": 10,
+  "scan_timeout_sec": 12,
+  "max_request_body_bytes": 1048576,
+  "workspace_root": "C:\\AI_VM_TEST\\workspace",
+  "runtime_root": "C:\\AI_VM_TEST\\runtime",
+  "temp_root": "C:\\AI_VM_TEST\\temp",
+  "downloads_root": "C:\\AI_VM_TEST\\downloads",
+  "apps_root": "C:\\AI_VM_TEST\\workspace\\apps",
+  "moved_root": "C:\\AI_VM_TEST\\workspace\\apps_moved",
+  "updates_root": "C:\\AI_VM_TEST\\workspace\\apps_update",
+  "backups_root": "C:\\AI_VM_TEST\\backups",
+  "quarantine_root": "C:\\AI_VM_TEST\\quarantine",
+  "deny_roots": [
+    "C:\\Windows",
+    "C:\\ProgramData",
+    "C:\\System Volume Information"
+  ],
+  "allow_any_vm_file_read": true,
+  "allow_any_vm_file_write": true,
+  "file_read_roots": [
+    "C:\\\\"
+  ],
+  "file_write_roots": [
+    "C:\\\\"
+  ]
+}
